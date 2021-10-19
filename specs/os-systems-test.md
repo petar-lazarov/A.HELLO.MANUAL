@@ -19,7 +19,9 @@ Name | Timeout | Info
 -----| --------| ----- 
 {%- for os in spec.matrix %}
   {{ os.name }} | {{ os.timeout}} | {{os.reqs -}} 
-{% endfor %}<br>
+{% endfor %}
+<br>
+<br>
 
 {% for os in spec.matrix %}
 ## Test  {{ os.name }}  
