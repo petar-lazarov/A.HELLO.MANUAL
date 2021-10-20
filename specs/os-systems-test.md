@@ -13,8 +13,12 @@ matrix: # test different OS systems
 {% if page %} {% assign spec = page %} {% endif %}
 
 # {{ spec.title }}
-Matrix being tested.
+Use the Matrix for testing different OS based on product model no.
 
+- Check the timeouts
+- Check the specific requirements.
+
+## [setup]
 Name | Timeout | Info
 -----| --------| ----- 
 {%- for os in spec.matrix %}
