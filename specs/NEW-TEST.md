@@ -14,6 +14,9 @@ Do the following everytime.
 - TWO
 - THREE
 
+The setup is complete now.
+
+---
 
 ## CASE ONE
 What ever
