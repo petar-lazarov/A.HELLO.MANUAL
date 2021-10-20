@@ -1,5 +1,7 @@
 ---
 testspace:
+title: NEW TEST
+description: Some interesting stuff is being tested
 ---
 
 # NEW TEST
@@ -9,7 +11,8 @@ Now I can add bullets as part of the description.
 - And do that
 
 ## [setup]
-Do the following everytime.
+{% include example-intro.md %}
+
 - ONE
 - TWO
 - THREE
