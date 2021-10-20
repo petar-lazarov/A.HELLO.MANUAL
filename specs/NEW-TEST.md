@@ -25,3 +25,13 @@ What ever
 - Do that
 
 ## CASE TWO
+My other case
+
+## [teardown]
+This is the shutdown fixture. Do the following
+
+- AA
+- BB
+- CC
+
+
