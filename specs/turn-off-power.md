@@ -13,10 +13,11 @@ matrix: # test different systems
 {% if page %} {% assign spec = page %} {% endif %}
 
 # {{ spec.title }}
-This tests different shutdown stages for each device. The device `type` will be displayed during the power cycle shutdown sequence. 
+This test verifies shutdown stages for each device. The device type will always be displayed during the power cycle shutdown sequence.
 
 - The timeout specific to each device type required for verification
-- Device specifics can be found on the staging site. 
+- Any Device specifics requirements can be found on the staging site.
+
 
 ## [setup]
 The following is the requirement matrix:
@@ -26,6 +27,8 @@ State | Timeout | Info
 {%- for state in spec.matrix %}
   {{ state.name }} | {{ state.timeout}} | {{state.reqs }} 
 {%- endfor %}
+<br>
+<br>
 
 ## [teardown]
 Make sure to remove device from any external contact.
@@ -54,7 +57,7 @@ This device requires the switch **cycle** to be set to `77`.
 {% endfor %}
 
 
-## Turn off delay
+## Turn ALL Devices completely off 
 The turn off delay verification is used for input configuration.
 
 - Go back on line to check for switch-on
