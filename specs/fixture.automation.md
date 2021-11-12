@@ -2,7 +2,7 @@
 testspace:
 title: Fixture Automation
 before:
-  name: github:A.HELLO.MANUAL@TEST:setup
+  name: github:A.HELLO.MANUAL@TEST1:setup
   description: example input
   input: 
     p1: one
