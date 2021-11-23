@@ -10,6 +10,7 @@ title: Vars and Includes
 
 ## Test Case One
 Some description here.
+Кирилица в спек.
 
 * check this  
 * check that
